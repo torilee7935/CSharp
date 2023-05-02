@@ -1,57 +1,63 @@
-﻿//using Library.LearningManagement.Database;
+﻿using Library.LearningManagement.Database;
 using Library.LearningManagement.Models;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Library.LearningManagement.Services
 {
-	public class StudentServices
-	{
-        //private List<Person> studentList = new List<Person>(); similar to below(singleton)
-        private List<Person> studentList;
+    public class StudentService
+    {
 
-        private static StudentServices? _instance;
+        private static StudentService? _instance;
 
-        private StudentServices()
+        public IEnumerable<Student?> Students
         {
-            studentList = new List<Person>();
-                
+            get
+            {
+                return FakeDatabase.People.Where(p => p is Student).Select(p => p as Student);
+            }
         }
 
-        public static StudentServices Current
+        private StudentService()
+        {
+
+        }
+
+        public static StudentService Current
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new StudentServices();
-
+                    _instance = new StudentService();
                 }
+
                 return _instance;
-            
             }
         }
 
         public void Add(Person student)
         {
-            studentList.Add(student);
+            FakeDatabase.People.Add(student);
         }
 
-        public List<Person> Students
+        public void Remove(Person student)
         {
-            get
-            {
-                return studentList;
-            }
+            FakeDatabase.People.Remove(student);
         }
 
-        public IEnumerable<Person> Search(string query)
+        public Person? GetById(int id)
         {
-            return studentList.Where(s => s.Name.ToUpper().Contains(query.ToUpper()));
+            return FakeDatabase.People.FirstOrDefault(p => p.Id == id);
+        }
+
+        public IEnumerable<Student?> Search(string query)
+        {
+            return Students.Where(s => (s != null) && s.Name.ToUpper().Contains(query.ToUpper()));
         }
 
         public decimal GetGPA(int studentId)
@@ -66,4 +72,3 @@ namespace Library.LearningManagement.Services
         }
     }
 }
-

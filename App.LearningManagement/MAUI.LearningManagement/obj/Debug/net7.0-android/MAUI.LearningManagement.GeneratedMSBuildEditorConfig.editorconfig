@@ -43,3 +43,27 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.LearningManagement.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/torilee/COP4870/CSharp/App.LearningManagement/MAUI.LearningManagement/Views/CourseDetailView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.LearningManagement.Views.CourseDetailView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/CourseDetailView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/CourseDetailView.xaml
+
+[/Users/torilee/COP4870/CSharp/App.LearningManagement/MAUI.LearningManagement/Views/InstructorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.LearningManagement.Views.InstructorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/InstructorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/InstructorView.xaml
+
+[/Users/torilee/COP4870/CSharp/App.LearningManagement/MAUI.LearningManagement/Views/PersonDetailView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.LearningManagement.Views.PersonDetailView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PersonDetailView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PersonDetailView.xaml
+
+[/Users/torilee/COP4870/CSharp/App.LearningManagement/MAUI.LearningManagement/Views/StudentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.LearningManagement.Views.StudentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/StudentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/StudentView.xaml

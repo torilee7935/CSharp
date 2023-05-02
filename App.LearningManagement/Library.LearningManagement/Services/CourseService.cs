@@ -1,4 +1,4 @@
-﻿//using Library.LearningManagement.Database;
+﻿using Library.LearningManagement.Database;
 using Library.LearningManagement.Models;
 using System;
 using System.Collections.Generic;
@@ -9,10 +9,8 @@ using System.Threading.Tasks;
 
 namespace Library.LearningManagement.Services
 {
-
-	public class CourseService
-	{
-        private List<Course> courseList;
+    public class CourseService
+    {
         private static CourseService? _instance;
 
         public static CourseService Current
@@ -23,29 +21,29 @@ namespace Library.LearningManagement.Services
                 {
                     _instance = new CourseService();
                 }
-                return _instance;
 
+                return _instance;
             }
         }
 
         private CourseService()
         {
-            courseList = new List<Course>();
 
         }
 
         public void Add(Course course)
         {
-            courseList.Add(course);
+            FakeDatabase.Courses.Add(course);
         }
 
         public List<Course> Courses
         {
             get
             {
-                return courseList;
+                return FakeDatabase.Courses;
             }
         }
+
         public IEnumerable<Course> Search(string query)
         {
             return Courses.Where(s => s.Name.ToUpper().Contains(query.ToUpper())
@@ -172,4 +170,3 @@ namespace Library.LearningManagement.Services
 
     }
 }
-

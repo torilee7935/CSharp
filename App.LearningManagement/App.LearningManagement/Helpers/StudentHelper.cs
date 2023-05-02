@@ -12,13 +12,13 @@ namespace App.LearningManagement.Helpers
 {
     internal class StudentHelper
     {
-        private StudentServices studentService;
+        private StudentService studentService;
         private CourseService courseService;
         private ListNavigator<Person> studentNavigator;
 
         public StudentHelper()
         {
-            studentService = StudentServices.Current;
+            studentService = StudentService.Current;
             courseService = CourseService.Current;
 
             studentNavigator = new ListNavigator<Person>(studentService.Students, 2);
@@ -63,7 +63,7 @@ namespace App.LearningManagement.Helpers
 
                 if (classification.Equals("O", StringComparison.InvariantCultureIgnoreCase))
                 {
-                    classEnum = PersonClassification.Sophmore;
+                    classEnum = PersonClassification.Sophomore;
                 }
                 else if (classification.Equals("J", StringComparison.InvariantCultureIgnoreCase))
                 {
