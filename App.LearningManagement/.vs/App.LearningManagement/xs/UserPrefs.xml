@@ -1,17 +1,46 @@
 ﻿<Properties StartupConfiguration="{9ECC2A3A-E134-4AF1-89FF-ED78C4AA8ABD}|Default">
-  <MonoDevelop.Ide.ItemProperties.MAUI.LearningManagement FirstBuild="True" PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="App.LearningManagement/Program.cs">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.MAUI.LearningManagement PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUI.LearningManagement/App.xaml.cs">
     <Files>
       <File FileName="App.LearningManagement/Program.cs" Line="81" Column="63" IsPinned="True" />
-      <File FileName="App.LearningManagement/ListNavigator.cs" />
-      <File FileName="App.LearningManagement/Helpers/StudentHelper.cs" />
+      <File FileName="Library.LearningManagement/Database/FakeDatabase.cs" Line="30" Column="2" />
+      <File FileName="Library.LearningManagement/Services/StudentService.cs" Line="74" Column="2" />
+      <File FileName="Library.LearningManagement/Services/CourseService.cs" Line="172" Column="2" />
+      <File FileName="MAUI.LearningManagement/MauiProgram.cs" Line="16" Column="20" />
+      <File FileName="MAUI.LearningManagement/AppShell.xaml.cs" Line="10" Column="2" />
+      <File FileName="MAUI.LearningManagement/ViewModels/InstructorViewViewModel.cs" Line="1" Column="1" />
+      <File FileName="MAUI.LearningManagement/Views/PersonDetailView.xaml" Line="1" Column="1" />
+      <File FileName="MAUI.LearningManagement/Views/StudentView.xaml" Line="1" Column="1" />
+      <File FileName="MAUI.LearningManagement/Views/InstructorView.xaml" Line="1" Column="1" />
+      <File FileName="MAUI.LearningManagement/Views/PersonDetailView.xaml.cs" Line="22" Column="63" />
+      <File FileName="MAUI.LearningManagement/App.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="App.LearningManagement" expanded="True">
-            <Node name="App.LearningManagement" expanded="True" />
+            <Node name="App.LearningManagement" expanded="True">
+              <Node name="Helpers" expanded="True" />
+            </Node>
+            <Node name="Library.LearningManagement" expanded="True">
+              <Node name="Database" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="MAUI.LearningManagement" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="PersonDetailView.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
