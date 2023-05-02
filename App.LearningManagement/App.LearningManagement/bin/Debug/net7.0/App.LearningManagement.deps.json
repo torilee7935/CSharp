@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "App.LearningManagement/1.0.0": {
+        "dependencies": {
+          "Library.LearningManagement": "1.0.0"
+        },
+        "runtime": {
+          "App.LearningManagement.dll": {}
+        }
+      },
+      "Library.LearningManagement/1.0.0": {
+        "runtime": {
+          "Library.LearningManagement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App.LearningManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.LearningManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

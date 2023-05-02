@@ -1,7 +1,6 @@
 ﻿using System;
 using App.LearningManagement.Helpers;
-
-namespace App.LearningManagement
+namespace CSharp
 {
     internal class Program
     {

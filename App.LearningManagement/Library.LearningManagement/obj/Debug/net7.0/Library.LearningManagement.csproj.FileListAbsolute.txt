@@ -1,0 +1,12 @@
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/bin/Debug/net7.0/Library.LearningManagement.deps.json
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/bin/Debug/net7.0/Library.LearningManagement.dll
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/bin/Debug/net7.0/Library.LearningManagement.pdb
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.csproj.AssemblyReference.cache
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.AssemblyInfoInputs.cache
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.AssemblyInfo.cs
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.csproj.CoreCompileInputs.cache
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.dll
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/refint/Library.LearningManagement.dll
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/Library.LearningManagement.pdb
+/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/obj/Debug/net7.0/ref/Library.LearningManagement.dll

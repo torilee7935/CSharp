@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Library.LearningManagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Library.LearningManagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.LearningManagement.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library.LearningManagement/1.0.0": {
+      "type": "project",
+      "path": "../Library.LearningManagement/Library.LearningManagement.csproj",
+      "msbuildProject": "../Library.LearningManagement/Library.LearningManagement.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Library.LearningManagement >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/torilee/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/Library.LearningManagement.csproj": {
+              "projectPath": "/Users/torilee/COP4870/CSharp/App.LearningManagement/Library.LearningManagement/Library.LearningManagement.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
